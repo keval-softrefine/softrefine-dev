@@ -43,7 +43,7 @@
   justify-content: center;
 }
 #technology .techno__item .techno__item-icon {
-  margin: 3rem 5rem;
+  margin: 3rem 4rem;
 }
 #technology .techno__item .techno__item-icon img {
   width: 8rem;
@@ -73,6 +73,7 @@
 #technology .nav-pills .nav-link {
   border-color: transparent;
   background: transparent;
+  cursor: pointer;
 }
 #technology .nav-pills button:focus {
   outline: none;
