@@ -852,7 +852,7 @@ section {
   }
 }
 
-.navbar-light .navbar-nav .nav-link {
+#header .navbar-light .navbar-nav .nav-link {
   padding: 1rem 2.4rem;
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -862,20 +862,20 @@ section {
   transition: 0.3s;
 }
 
-.navbar {
+#header .navbar {
   padding: 0;
   width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-  .wrapper .navbar-nav {
+  #header .wrapper .navbar-nav {
     background-color: rgba(29, 29, 88, 0.9);
     padding: 0 4.8rem;
   }
-  .wrapper .navbar-nav {
+  #header .wrapper .navbar-nav {
     text-align: center;
   }
-  .wrapper .navbar-nav .nav-link {
+  #header .wrapper .navbar-nav .nav-link {
     color: #fff;
     font-size: 1.6rem;
     font-weight: normal;
@@ -884,13 +884,13 @@ section {
   }
 }
 
-.navbar-wrapper {
+#header .navbar-wrapper {
   width: 100% !important;
   padding: 0 4.8rem;
 }
 
 @media screen and (max-width: 991px) {
-  .navbar-collapse {
+  #header .navbar-collapse {
     position: absolute;
     top: 7rem;
     width: 100%;
@@ -899,10 +899,10 @@ section {
   }
 }
 
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link {
+#header .navbar-light .navbar-nav .nav-link:focus,
+#header .navbar-light .navbar-nav .nav-link:hover,
+#header .navbar-light .navbar-nav .nav-link.active,
+#header .navbar-light .navbar-nav .show > .nav-link {
   color: var(--color-secondary);
 }
 
