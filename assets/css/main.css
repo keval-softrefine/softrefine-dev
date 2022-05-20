@@ -399,6 +399,10 @@ section {
   background-color: var(--color-primary);
 }
 
+.swiper-slide {
+  user-select: none;
+}
+
 @media (max-width: 26.56em) {
   #clients {
     padding: 6rem 3.6rem;
