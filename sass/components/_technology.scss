@@ -69,3 +69,11 @@
     font-size: 3rem;
   }
 }
+
+#technology .nav-pills .nav-link {
+  border-color: transparent;
+  background: transparent;
+}
+#technology .nav-pills button:focus {
+  outline: none;
+}
